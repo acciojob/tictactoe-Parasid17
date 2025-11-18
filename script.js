@@ -38,7 +38,7 @@ const submitBtn = document.getElementById("submit");
       currentPlayer = player1;
       currentSymbol = "x";
 
-      message.textContent = ${currentPlayer}, you're up!;
+      message.textContent = `${currentPlayer}, youre up!`;
 
       createBoard();
     });
